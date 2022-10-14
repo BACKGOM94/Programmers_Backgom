@@ -6,7 +6,7 @@ func solution(_ arr:[Int], _ divisor:Int) -> [Int] {
         }
     }
     
-    if value.count = 0 {
+    if value.count == 0 {
         value.append(-1)
     }else {
         value = value.sorted()
