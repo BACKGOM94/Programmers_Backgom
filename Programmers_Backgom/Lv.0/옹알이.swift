@@ -24,6 +24,3 @@ func solution(_ babbling:[String]) -> Int {
     
     return value
 }
-
-
-print(solution(["ayaye", "uuu", "yeye", "yemawoo", "ayaayaa"]))
