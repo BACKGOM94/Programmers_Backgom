@@ -3,7 +3,11 @@ func solution(_ s:String) -> Bool {
     
     
         if let check = Int(s) {
-            value = true
+            if s.count == 4 || s.count == 6 {
+                value = true
+            }else {
+                value = false
+            }
         }else {
             value = false
         }
