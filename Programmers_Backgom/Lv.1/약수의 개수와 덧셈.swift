@@ -18,5 +18,3 @@ func solution(_ left:Int, _ right:Int) -> Int {
     }
     return value
 }
-print("asdf", terminator: "")
-print("asdf", terminator: "")
